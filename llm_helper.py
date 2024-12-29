@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
+GROQ_API_KEY = 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
 llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama-3.2-90b-text-preview")
 
 
